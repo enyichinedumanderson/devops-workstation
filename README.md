@@ -12,6 +12,7 @@ The goal of this lab was to install the required tools, verify that they are wor
 | Azure CLI | 2.90.0 | Managing Azure resources from the terminal |
 | Docker | 29.8.2 | Building and running containerized applications |
 | Terraform | 1.16.5 | Managing infrastructure as code |
+| GitHub CLI | 2.102.0 | Managing GitHub repositories and authentication from the terminal |
 | Visual Studio Code | 1.137.0 | Main development environment |
 
 ## Verification
@@ -24,6 +25,7 @@ az version
 docker --version
 terraform -version
 code --version
+gh --version
 ```
 
 For Docker, I also ran:
@@ -43,6 +45,7 @@ Setting up the tools helped me understand the role each one plays in a DevOps wo
 - **Docker** packages applications into containers so they can run consistently across different environments.
 - **Terraform** allows infrastructure to be defined and managed through code.
 - **VS Code** provides the workspace and terminal where these tools can be used together.
+- **GitHub CLI** allows GitHub authentication and repository operations to be handled directly from the terminal.
 
 One thing I noticed during the setup was that installing a tool does not always mean the terminal can use it immediately. In some cases, I had to restart the terminal so Windows could recognize the updated PATH.
 
